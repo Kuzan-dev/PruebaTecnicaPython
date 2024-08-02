@@ -3,7 +3,7 @@
   Se tiene un n ́umero natural n, crear una funci ́on que retorne una lista de todos 
   los pares de n ́umeros naturales que sumen el número n. n < 10**6
 '''
-def Form1(n):
+def form1(n):
   try:
     # Verificación de que n es un número natural
     if not isinstance(n, int) or n <= 0:
@@ -16,7 +16,7 @@ def Form1(n):
   except ValueError as e:
     print(f"Error en el número n: {e}")
 
-def Form2(n):
+def form2(n):
   try:
     # Verificación de que n es un número natural
     if not isinstance(n, int) or n <= 0:
@@ -30,7 +30,7 @@ def Form2(n):
 n = 107
 
 # Prueba de la función Form1
-print(Form1(n)) #Metodo 1
+print(form1(n)) #Metodo 1
 
 # Prueba de la función Form2
-print(Form2(n)) #Metodo 2
+print(form2(n)) #Metodo 2

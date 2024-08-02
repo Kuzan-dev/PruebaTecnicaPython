@@ -4,7 +4,7 @@
   de n ́umeros que aparecen solo una vez y cuyo segundo elemento la cantidad de terminos repetidos.
 '''
 
-def Form1(matriz):
+def form1(matriz):
   try:
     result = [0, 0]
     temp = []
@@ -35,7 +35,7 @@ def Form1(matriz):
   except ValueError as e:
     print(f"Error en la matriz: {e}")
 
-def Form2(matriz):
+def form2(matriz):
   try:
     # Verificación de que todos los elementos sean enteros
     for row in matriz:
@@ -63,8 +63,8 @@ def Form2(matriz):
 Matriz1 = [[2,2],
           [2,2]]
 
-print(Form1(Matriz1)) #Metodo 1
-print(Form2(Matriz1)) #Metodo 2
+print(form1(Matriz1)) #Metodo 1
+print(form2(Matriz1)) #Metodo 2
 
 
 # Matriz de prueba 2
@@ -72,5 +72,5 @@ Matriz2 = [[2,1,3],
           [4,5,2],
           [6,6,6]]
 
-print(Form1(Matriz2)) #Metodo 1
-print(Form2(Matriz2)) #Metodo 2
+print(form1(Matriz2)) #Metodo 1
+print(form2(Matriz2)) #Metodo 2
