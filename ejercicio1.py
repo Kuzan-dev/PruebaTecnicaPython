@@ -60,7 +60,7 @@ def Form2(matriz):
     print(f"Error en la matriz: {e}")
 
 # Matriz de prueba 1
-Matriz1 = [[2.1,2],
+Matriz1 = [[2,2],
           [2,2]]
 
 print(Form1(Matriz1)) #Metodo 1
