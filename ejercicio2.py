@@ -3,7 +3,6 @@
   Se tiene un n ́umero natural n, crear una funci ́on que retorne una lista de todos 
   los pares de n ́umeros naturales que sumen el número n. n < 10**6
 '''
-
 def Form1(n):
   try:
     # Verificación de que n es un número natural
